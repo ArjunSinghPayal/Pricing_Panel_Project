@@ -46,3 +46,41 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+head{
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	background-color: #EBE5C2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+.panel {
+	background-color: white;
+	border-radius: 4rem;
+	padding: 2em 5em;
+	width: 100%;
+	max-width: 60%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.pricing-plan {
+	border-bottom: 1px solid #F8F3D9;
+}
+
+.pricing-plan:last-child {
+	border-bottom: none;
+}
+
+.pricing-img {
+	margin-bottom: 2em;
+	width: 70%;
+}
