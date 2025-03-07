@@ -115,3 +115,29 @@ body{
 	font-size: 32px;
 	font-weight: 700px;
 }
+
+.pricing-button {
+	border: 1px solid #B9B28A;
+	border-radius: 1em;
+	color: #706b50;
+	display: inline-block;
+	padding: 0.7em 1em;
+	text-decoration: none;
+	margin: 1em 0;
+	transition: background-color 200ms ease-in-out;
+}
+
+.pricing-button:hover, .pricing-button:focus {
+	background-color: #EBE5C2;
+}
+
+.pricing-button.is-featured {
+	background-color: #504B38;
+	color: white;
+	transition: background-color 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+.pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
+	background-color: #d0cbab;
+	color: #504B38;
+}
