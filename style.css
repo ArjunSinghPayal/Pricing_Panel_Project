@@ -84,3 +84,34 @@ body{
 	margin-bottom: 2em;
 	width: 70%;
 }
+
+.pricing-header {
+	color: #ad8d8d;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.pricing-features {
+	margin: 50px 0 25px;
+	color: #514b32;
+}
+
+.pricing-features-item {
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 1.5;
+	padding: 15px 0;
+	border-top: 1px solid #F8F3D9;
+}
+
+.pricing-features-item:last-child{
+	border: 1px solid #F8F3D9;
+}
+
+.pricing-price {
+	color: #514b32;
+	display: block;
+	font-size: 32px;
+	font-weight: 700px;
+}
